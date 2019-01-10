@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_propo"
+    android:layout_margin="5dp"
+    android:animateLayoutChanges="true"
+    android:alpha="0.9"
+    card_view:cardBackgroundColor="#DDDF"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="4dp"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:animateLayoutChanges="true"
+        android:padding="5dp">
+
+
+        <EditText
+            android:id="@+id/etCode"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintCode"
+            />
+
+        <EditText
+            android:id="@+id/etPrix"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:hint="@string/priceHint"
+            />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#FF909090" />
+
+        <Button
+            android:id="@+id/bt_scan"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="@string/scan"
+            android:textAllCaps="true"
+            android:background="@drawable/bt_blue"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/bt_search"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:enabled="false"
+            android:layout_gravity="center"
+            android:text="@string/search"
+            android:textAllCaps="true"
+            android:background="@drawable/bt_vert"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_add"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:enabled="false"
+            android:layout_gravity="center"
+            android:text="@string/add"
+            android:visibility="gone"
+            android:textAllCaps="true"
+            android:background="@drawable/bt_gray"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

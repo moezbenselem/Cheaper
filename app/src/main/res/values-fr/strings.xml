@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cheaper !</string>
+    <string name="add">Ajouter</string>
+    <string name="city">"Ville : "</string>
+    <string name="cityHint">Ville</string>
+    <string name="code">"Code : "</string>
+    <string name="hintCode">Code Produit</string>
+    <string name="price">"Prix : "</string>
+    <string name="priceHint">Prix Produit (Dinar)</string>
+    <string name="product">"Produit : "</string>
+    <string name="productHint">Produit</string>
+    <string name="scan">Analyser Code</string>
+    <string name="search">Moins Cher ?</string>
+    <string name="shop">"Magasin : "</string>
+    <string name="shopHint">Magasin</string>
+</resources>

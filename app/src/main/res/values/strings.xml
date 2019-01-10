@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cheaper !</string>
+    <string name="scan">Scan Code</string>
+
+    <string name="add">Add</string>
+    <string name="shop">Shop : </string>
+    <string name="city">City : </string>
+    <string name="price">Price : </string>
+    <string name="code">Code : </string>
+    <string name="product">Product : </string>
+
+    <string name="hintCode">Product Code</string>
+    <string name="shopHint">Shop</string>
+    <string name="cityHint">City</string>
+    <string name="productHint">Product</string>
+    <string name="priceHint">Product Price (Dinar)</string>
+    <string name="search">Seek for Cheaper !</string>
+</resources>
